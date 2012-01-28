@@ -1,0 +1,9 @@
+#tweetchat p {
+	font-size: .8em;
+	padding: 2px;
+}
+
+img.profilePic {
+	height: 25px;
+	width: 25px;
+}

@@ -1,0 +1,451 @@
+body {
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	color: #333;
+	text-align: center;
+	font-size: 1em;
+	background-color: #C0DEED; /* WILL BE OVERRIDDEN BY TWITTER SETTING */
+	background-image: url(http://s.twimg.com/a/1257465343/images/themes/theme1/bg.png); /* WILL BE OVERRIDDEN BY TWITTER SETTING */
+	background-repeat: no-repeat; /* WILL BE OVERRIDDEN BY TWITTER SETTING */
+}
+
+#ads {
+	margin-top: 10px;
+}
+#page, #about {
+	background-color: #fff;
+	text-align: left;
+}
+
+#page, .block {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+	
+body {
+	margin: 0;
+	padding: 0; 
+}
+
+#page, #header {
+	margin: auto;
+	padding: 5px;
+	width: 750px;
+	overflow: hidden;
+	}
+
+#header {
+	text-align:left;
+	color: #555;
+	text-shadow:1px 1px 2px rgba(255,255,255,.6);
+	font-size: 24px;
+}
+
+#header .big {
+	font-size: 40px;
+	font-weight: bold;
+	display: inline;
+}
+
+h1 {
+	font-size: 1.8em;
+	margin: 10px 5px;
+}
+
+#inputArea {
+	background-color: #fff;
+	width: 750px;
+	z-index:10;
+}
+
+#tweetchat p	{
+	clear: both;
+	border-top: 1px dashed #ccc;
+	margin: 5px;
+	padding: 10px;
+}
+
+img {
+	padding: 4px;
+}
+
+/*
+#header img {
+	padding: 0px;
+}
+*/
+
+.label {
+	float: left;
+	width: 180px;
+	margin-left: 10px;
+	margin-top: 8px;
+}
+
+label {
+	margin-left: 6px;
+}
+
+#username, #password {
+	width: 450px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+#login {
+	margin: 10px 0 0 190px;
+	width: 150;
+}
+
+h1 {
+	font-size: 20px;
+	line-height: 20px;
+	vertical-align: middle;
+}
+
+.smallTxt {
+	font-size: 10px;
+	line-height: 20px;
+	vertical-align: middle;
+}
+.sendMessage {
+	float: right;
+	margin: 4px;
+}
+
+#messageEnter {
+	margin-bottom: 40px;
+}
+
+input.txt {
+	width: 40%;
+	font-size: 18px;
+	line-height: 22px;
+
+}
+
+input#hashTag {
+	height: 20px;
+	vertical-align: top;
+	margin-top: 14px;
+	margin-left: -6px;
+	color: #555;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 4px;
+	text-shadow:1px 1px 2px rgba(255,255,255,.6);
+	background-color: rgba(255,255,255,.2);
+	border: 1px solid rgba(255,255,255,.3);
+}
+
+.headerButton {
+	vertical-align: top;
+	margin-top: 14px;
+}
+.button, .button:visited {
+	background: #222 url(../images/button-overlay.png) repeat-x; 
+	display: inline-block; 
+	padding: 5px 10px 6px; 
+	color: #fff; 
+	text-decoration: none;
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	border: 0;
+	border-bottom: 1px solid rgba(0,0,0,0.25);
+	position: relative;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: #111;
+	color: #fff;
+}
+.button:active {
+	top: 1px;
+}
+.small.button, .small.button:visited {
+	font-size: 9px;
+	padding: none;
+}
+.button, .button:visited, .medium.button, .medium.button:visited {
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 1;
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+}
+.large.button, .large.button:visited {
+	font-size: 14px;
+	padding: 8px 14px 9px;
+}
+
+.white.button, .white.button:visited {
+	background-color: #f0f0f0;
+	color: #666;
+	text-shadow: none;
+}
+.white.button:hover {
+	background-color: #ffffff;
+	color: #999;
+}
+.green.button, .green.button:visited {
+	background-color: #91bd09;
+}
+.green.button:hover {
+	background-color: #749a02;
+}
+.blue.button, .blue.button:visited {
+	background-color: #2daebf;
+}
+.blue.button:hover {
+	background-color: #007d9a;
+}
+.red.button, .red.button:visited {
+	background-color: #e33100;
+}
+.red.button:hover {
+	background-color: #872300;
+}
+.magenta.button, .magenta.button:visited {
+	background-color: #a9014b;
+}
+.magenta.button:hover{
+	background-color: #630030;
+}
+.orange.button, .orange.button:visited {
+	background-color: #ff5c00;
+}
+.orange.button:hover {
+	background-color: #d45500;
+}
+.yellow.button, .yellow.button:visited {
+	background-color: #ffb515;
+}
+.yellow.button:hover {
+	background-color: #fc9200;
+}
+
+#header .btn {
+	float:right;
+	vertical-align: top;
+	margin-top: 14px;
+}
+
+
+#notice {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 4px;
+	margin: 4px;
+	display: none;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+#userControl, #externalControl {
+	display: none;
+	background-color: #f4f4f4;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #dddddd;
+	padding: 10px 20px; !important;
+	clear: both;
+}
+
+#videoEmbedArea {
+	display: none;
+	float:right;
+	margin: 5px 5px 5px 10px;
+}
+
+.textboxlist {
+	background: #fff;
+	width: 625px;
+	float:right;
+}
+
+.featuredTweet {
+	background-color : #F0F0F0;
+	border-left: 10px solid #336699 !important;
+	border-bottom : none !important;
+	border-top : none !important;
+	font-weight : bolder;
+	padding-left: 5px !important;
+	margin-left: 0px !important;
+}
+
+.blockedTweet {
+	display: none;
+}
+
+.atMeTweet {
+	background-color : #F0F0F0;
+	border-left: 10px solid #003366 !important;
+	border-bottom : none !important;
+	border-top : none !important;
+	font-weight : bolder;
+	padding-left: 5px !important;
+	margin-left: 0px !important;
+}
+
+.fromMeTweet {
+	background-color : #F0F0F0;
+	border-left: 10px solid #99CC33 !important;
+	border-bottom : none !important;
+	border-top : none !important;
+	font-weight : bolder;
+	padding-left: 5px !important;
+	margin-left: 0px !important;
+}
+
+.profilePic {
+	border: 1px solid #ccc;
+	background-color: #F0F0F0;
+	padding: 2px;
+	margin-right: 5px;
+
+}
+
+#userImage {
+	height: 42px;
+	width: 42px;
+	border: 1px solid #333;
+	background-color: #F0F0F0;
+	padding: 1px;
+	margin-right: 5px;
+	float: left;
+}
+
+#login:hover {
+	background-position:left -78px;
+	border:1px solid #BBBBBB;
+	text-decoration:none;
+}
+
+#login {
+	background-image:url(http://static.twitter.com/images/more.gif);
+}
+
+#login {
+	background-color:#FFFFFF;
+	background-position:left top;
+	background-repeat:repeat-x;
+	border-color:#DDDDDD #AAAAAA #AAAAAA #DDDDDD;
+	border-style:solid;
+	border-width:1px;
+	display:block;
+	font-size:14px;
+	font-weight:bold;
+	height:22px;
+	line-height:1.5em;
+	margin-bottom:6px;
+	margin-top:6px;
+	margin-right:0px;
+	outline-color:-moz-use-text-color;
+	outline-style:none;
+	outline-width:0;
+	padding:6px 0;
+	text-align:center;
+	text-shadow:1px 1px 1px #FFFFFF;
+	width:300px;
+}
+
+.round {
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-bottomright:5px;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-topright:5px;
+	-webkit-border-radius: 5px;
+}
+
+
+.round-btn:hover {
+	background-image:url(http://static.twitter.com/images/round-btn-hover.gif);
+	border:0 none;
+	color:#444444;
+	font-size:14px;
+	height:32px;
+	margin-left:3px;
+	width:115px;
+	cursor:pointer;
+}
+
+.round-btn {
+	background-image:url(http://static.twitter.com/images/round-btn.gif);
+	border:0 none;
+	color:#666666;
+	font-size:14px;
+	height:32px;
+	margin-left:3px;
+	width:115px;
+	margin-top:4px;
+}
+
+.countdown {
+	font-size: 1em;
+	font-family:'Georgia','Serif';
+	color:#999;
+	font-weight: bold;
+}
+
+.transportControls {
+	letter-spacing: -.05em;
+	margin-top: 1px;
+	text-align: right;
+}
+
+textarea {
+	margin-top: 4px;
+	font-family:'Lucida Grande',sans-serif;
+	font-size: 1.2em;
+	padding:4px;
+	height: 50px;
+	width: 98%;
+}
+
+.block {
+	float: left;
+	height: 300px;
+	width: 210px;
+	padding: 15px;
+	margin: 5px;
+	background: #cae4f0;
+	text-align: left;
+}
+
+.block h2 {
+	font-size: 1.8em;
+	margin: 0;
+	padding: 0;
+}
+
+.block p {
+	font-size: .8em !important;
+}
+
+.block a {
+	color: #333;
+}
+
+.block a:hover, .credits a:hover {
+	text-decoration: none;
+}
+
+.credits {
+	clear: both;
+	font-size: .6em;
+	margin: 5px;
+	color: #999;
+	text-align: center;
+}
+
+.credits a {
+	color: #777;
+}

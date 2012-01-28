@@ -1,0 +1,124 @@
+#page, #header {
+	overflow: hidden;
+	width: 94% !important;
+}
+
+#header .btn {
+	vertical-align: top;
+	margin-top: 0px;
+}
+
+#TCName {
+
+}
+
+span.btn a{
+	text-align: center;
+}
+
+#header span.big {
+	font-size: 35px;
+	font-weight: bold;
+}
+
+#header span.hashInput {
+	text-align: center;
+}
+#inputArea {
+	width: 100%;
+}
+
+#inputArea transportControls {
+	text-align: center;
+}
+#shareChat {
+	display: none;
+}
+label {
+	display: block;
+}
+.textboxlist {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+#ads {
+	display: none;
+}
+#about {
+	margin-top: 10px;
+}
+
+#about p {
+	border: none;
+	font-size: 10px;
+}
+
+img {
+	padding: 4px;
+}
+
+#header img {
+	padding: 0px;
+}
+
+
+h1 {
+	font-size: 20px;
+	line-height: 20px;
+	vertical-align: middle;
+}
+
+.smallTxt {
+	font-size: 10px;
+	line-height: 20px;
+	vertical-align: middle;
+}
+.sendMessage {
+	float: right;
+	margin: 4px;
+}
+
+#messageEnter {
+	margin-bottom: 40px;
+}
+
+#userImage {
+	display: none;
+}
+
+.block {
+	height: 100%;
+	margin: 0 0 10px 0;
+	padding: 5px;
+	float: none !important;
+	width: 97% !important; /*Set default width*/
+
+}
+
+.block h2 {
+	display: none;
+}
+
+#header.btn, .big, .hashInput {
+	display: block;
+	width: 100%;
+}
+
+#header.btn {
+	float: right;
+}
+input#hashTag {
+	width: 60%;
+}
+input#hashTag, .headerButton {
+	margin-top: 0px;
+}
+#description, span.hashInput {
+	display: none;
+}
+
+span.hashInput {
+	margin-top: 10px;
+	font-size: 10px;
+}
