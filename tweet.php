@@ -2,12 +2,12 @@
 <head>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7/jquery-ui.min.js"></script>
-<script type="text/javascript" src="/js/date.format.js"></script>
-<script type="text/javascript" src="/js/tweet.js"></script>
+<script type="text/javascript" src="js/date.format.js"></script>
+<script type="text/javascript" src="js/tweet.js"></script>
 
 
 <div id="chirped">
-<div id="LoadingTweets" style="text-align: center;">LOADING POSTS:<br/><img src="/images/horizontal-loading.gif" /></div></div>
+<div id="LoadingTweets" style="text-align: center;">LOADING POSTS:<br/><img src="images/horizontal-loading.gif" /></div></div>
 <script>
 
 function cb_func(data)
